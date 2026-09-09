@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background: rgba(59, 55, 55, 0.781);
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+   background: cadetblue;
+}
+h1{
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    text-decoration: none;
+    padding: 14px 5px;
+    color: white;
+    margin: 20px;
+   
+}
+nav a:hover{
+    background:gray;
+    font-weight: bold;
+    color: black;
+    
+}
+h2{
+    color: white;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+strong{
+    color: rgba(255, 166, 0, 0.473);
+}
+p{
+    margin-left: 100px;
+}
+.Input-Pai{
+    color: black;
+    background-color:white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top:20px ;
+}
+.pai{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.cartao{
+    background:rgba(255, 255, 255, 0.342);
+    height: 300px;
+    width: 260px;
+    margin-top:150px ;
+    margin-right: 100px;
+    border-radius: 5px;
+
+    display:flex ;
+    flex-direction: column;
+       
+}
+
+.LOG input{
+    background:white;
+    color: black;
+    width: 150px;
+    text-align: center;
+    margin-left: 65px;
+
+     border-radius: 5px;
+    padding: 10px;
+  
+}
+.LOGb{
+  padding-top: 100px;
+  
+}
+
+.LOG {
+     padding-top: 50px;
+}
+.LOGb input{
+    width: 150px;
+    margin-left: 65px;
+         border-radius: 5px;
+    padding: 10px;
+}
+.ipu{
+    color: white;
+}
+.emaa{
+    color:white ;
+    padding-top: 55px;
+  
+}
+
